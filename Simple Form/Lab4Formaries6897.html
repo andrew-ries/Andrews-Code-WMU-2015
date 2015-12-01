@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Programmer: Andrew Ries
+Class ID: aries6897
+Lab 4  
+CIS 3900: Business Web Design 
+Fall 2015
+Due date: 11/30/15
+Date completed: 11/30/15
+*************************************
+Form Page for Lab 4. 
+Displays:
+    Form
+
+-->
+  
+
+
+
+
+<head>
+	<title>R&amp;R Shipyard</title>
+	<meta charset="utf-8">
+
+<!--*** External CSS Link ***-->
+<link href="WebCSSaries6897.css" rel="stylesheet">
+<link href="PrintCSSaries6897.css" rel="stylesheet"  media="print">
+<link rel="icon" href="./subdir/favicon.ico" type="image/x-icon">	
+</head>
+<body>
+  
+  
+<!--*** wrapper start ***-->  
+<div id="wrapper">
+    
+<!--*** Header ***-->    
+    <header>
+       <h1>R&amp;R Shipyards</h1>    
+    </header>
+    
+
+<!--*** Top Nav ***-->
+    
+        <ul class="center">
+            <li class="top"><a href="Lab4aries6897.html">Home</a></li>
+            <li class="top"><a href="Lab4Formaries6897.html">Signup</a></li> 
+            <li class="top"><a href="#">Selection</a></li>  
+            <li class="top"><a href="#">Insurance</a></li> 
+            <li class="top"><a href="#">About Us</a></li>   
+        </ul>
+    
+<!--*** Right Column ***-->      
+    <aside> 
+        <h3>Learn To Speak Alien In Only 5 Years!  </h3>
+        <p class="news">Degrees in over 40,000 different languages.<br><br> For more info visit:<br>
+            <a href="http://web.mit.edu/">Mars University</a></p> 
+        <br>
+        <h3>Strange Binary Signal From Black Hole: Sag A*</h3>
+        <p class="news">Translation attempts have proven futile so far. <br><br>For more info visit:<br>
+            <a href="https://www.nodebox.net/node/documentation/concepts/subnetworks-space-invaders.png">Centauri News 7</a></p> 
+    </aside>
+    <div>
+      
+<!--*** Main Start ***-->          
+    <main>  
+
+     
+<!--*** H tags ***-->        
+    <h2>User Information Form</h2>    
+    <h3>Some cool jams while you fill out the form!</h3>  
+    
+<!--*** Audio ***-->        
+    <audio controls="controls">
+            <source src="./subdir/AlienHand - Above the Asteroids.mp3" type="audio/mpeg">
+            <source src="./subdir/AlienHand - Above the Asteroids.ogg" type="audio/ogg">        
+            <a href="./subdir/AlienHand - Above the Asteroids.mp3"></a> 
+    </audio><br><br>
+    
+    
+  
+<!--*** Form Start ***-->    
+    <form method="post" name="Lab4Form" id="Lab4Form" 
+          action="http://class.docrea.org/3900/lab4.php">
+        <fieldset>
+            <legend>User Information</legend>
+            <!-- Form Fields -->
+         
+             <!-- First Name [Required] -->
+            <label for="firstName">First name: </label>
+            <input type="text" name="firstName" id="firstName" size="20" 
+                                 maxlength="50" placeholder= "Adam" 
+                                 required="required"><br><br>
+            
+             <!-- Last Name [Required] -->
+            <label for="lastName">Last name: </label> 
+            <input type="text" name="lastName" id="lastName" size="20" 
+                                 maxlength="50" placeholder= "Smith" 
+                                 required="required"><br><br>   
+            
+             <!-- Phone Number [Required]-->
+            <label for="phone">Phone number: </label> 
+            <input type="tel" name="phone" id="phone" size="20" 
+                                 maxlength="50" placeholder= "(   )   -    " 
+                                 required="required"><br><br>
+            
+             <!-- Email [Required]-->
+            <label for="email">Email: </label> 
+            <input type="email" name="email" id="email" size="30"
+                                 maxlength="50" placeholder= "A.Smith@anywhere.com" 
+                                 required="required"><br><br>    
+            
+             <!-- Home State -->
+              <!-- select is safari friendly? -->
+            <label for="state">Home state: </label>
+            <input type="text" name="state" id="state" list="states" value="MI">
+            <datalist id="states">
+              <select> 
+                <option value="AL">
+                <option value="AK">
+                <option value="CA">    
+                <option value="CO">    
+                <option value="DC">    
+                <option value="FL">    
+                <option value="MA">    
+                <option value="MI">    
+                <option value="OR">    
+                <option value="WV">   
+              </select>     
+            </datalist><br><br>
+             
+             <!-- Date Select -->
+              <!-- Textbox in firefox-->
+            <label for="date">Choose a date: </label>
+            <input type="date" name="date" id="date"><br><br> 
+            
+             <!-- Favorite Color-->
+            <label for="color">Favorite color: </label>
+            <input type="color" name="color" 
+                                 id="color"><br><br>  
+            
+             <!-- Number Between 1-15 -->
+            <label for="number">Choose a number between 1-15: </label>                     
+            <input type="number" name="number" id="number" min="1" max="15"><br><br> 
+                                 
+             <!-- Ranking Between 1-100 -->
+            <label for="ranking">Choose a ranking: </label>                     
+            1<input type="range" name="ranking" id="ranking" min="1" max="100">100 <br><br> 
+            
+             <!-- Favorite Browser [Required] -->                    
+            Select your favorite browser:<br>                     
+            <input type="radio" name="browser" id="firefox" value="firefox" required="required">Firefox <br><br>   
+             <input type="radio" name="browser" id="chrome" value="chrome" required="required">Chrome <br><br>  
+             <input type="radio" name="browser" id="IE" value="IE" required="required">Internet Explorer <br><br>                       
+                               
+              <!-- Referral Website [Required] -->
+             <label for="url">Referral website: </label> 
+             <input type="url" name="url" id="url" size="30"
+                                 maxlength="50" value= "http://" 
+                                 required="required"><br><br> 
+             
+              <!-- User Feedback -->
+            <label for="comments">Comments: </label><br>
+            <textarea name="comments" id="comments" rows="4" 
+                      cols="40"> User feedback</textarea><br><br>    
+                                 
+             <!-- Spam? [Default Checked] -->          
+            Want to join the mailing list or newsletter?: 
+            <input type="checkbox" name="spam" id="spam" value="yes" checked>Yes<br> 
+            
+            
+            <!--Submit/Reset Buttons -->    
+            <input type="submit" value="Submit" id="submit"> 
+            <input type="reset">
+        </fieldset>
+    </form>
+    
+    
+    <!--*** End Main ***-->   
+    </main>  
+    </div>
+    
+
+<!--*** HTML5 hr tag *** -->    
+    <hr>   
+<!--*** Footer ***-->
+    <footer>
+        <a href="mailto:andrew.j.ries@wmich.edu">Contact: andrew.j.ries@wmich.edu</a>
+        <br> Phone: 555-555-5555
+        <br> Copyright &copy; 2015 Andrew Ries
+    </footer> 
+    </div>     
+</body>
+</html>
+
+
+
+
+
