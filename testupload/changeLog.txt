@@ -1,0 +1,29 @@
+Revisions to Tunes Lab
+
+11/29/2015
+
+Update Log:
+
+
+1) New function: Dupechecker. Checks for duplicate entries into array. [Could be better]
+    need feature for capitalization. RegEx?
+2) Stylized Error/File Creation Message with h2 tags for FileExists function
+
+3) Updated sort/rsort functions to asort/arsort. Holds index number value when sorting. 
+Scratch that, just had it working but ran into an error elsewhere, now it doesnt work. 
+Was it working? Must SLEEP....Will look into it another day. 
+
+NOTE: you switched CreateTable function names
+
+
+
+
+
+Need To:
+1 - better CSS positioning of table
+2 - change how user can exceed 10 songs, currently "pushes one off the edge"
+3 - Reduce amount of .php pages
+4 - nicer nav, submit buttons
+5 - clean up backups, .txt extension not seen in backups dir 
+6 - copy function
+7 - if you get this far check your notes for anything else you wrote down
