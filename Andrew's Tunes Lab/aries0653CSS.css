@@ -1,0 +1,146 @@
+/* 
+Programmer: Andrew Ries
+Class ID: aries0653
+Lab 3
+CIS 2800: Internet Programming
+Fall 2015
+Due date: 11/15/15
+Date completed: 11/15/15
+*************************************
+Program Explanation
+
+External CSS for Lab3
+*/
+
+
+
+/* body */
+body {
+     color:#000000;
+     background-color: #ffcc66; 
+     height: 100%
+    }
+    
+/* h1/2/3 Elements */    
+    h1, h2, h3 {
+       text-align: center; 
+    }
+    h3 {
+        color: #cccccc;
+    }
+         
+                
+                
+/********* Table ********/                 
+table, th, td {
+             
+              border-top: 3px solid black;
+              border-right: 3px solid black;
+              border-bottom: 3px solid black;
+              border-left: 3px solid black;
+          }
+          table {
+              margin-left: auto;
+              margin-right: auto;
+              border-collapse: collapse;
+              text-align-last: auto; 
+              /*width: 40%;*/
+             
+          }
+          th {
+              height: 30px; 
+              text-align: center;
+              padding: 0px;
+              border-bottom: 3px solid black; /* header bottom border */ 
+              background-color: #663399;
+              color: #ffff99;
+          }
+          td {
+              background-color: #ffffff;
+          }
+          
+  
+/*** Form CSS *****************************************************/ 
+form { 	                        background-color:#663399;
+				font-family: Courier, sans-serif;
+				width: 400px; 
+                                padding: 20px;
+                                size: 20px;
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-bottom: 20px;
+                                
+}
+
+/*** "Border Box" ***/
+fieldset {                      width: 370px;
+                                border: 3px ridge #ffff99;
+                                padding: 10px;
+                                margin-bottom: 2px;
+        
+}
+/*** Label Config ***/    
+/* display provides tb alignment */
+label {                         display: inline-block;
+                                width: 100px;
+                                text-align: left;
+                                color: #ffff99;
+    
+    
+}
+
+/*** Legend Config ***/
+/* fieldset title */
+legend {                        font-family: Georgia, "Times New Roman", serif;
+                                font-weight: bold;
+                                color: #ffff99;
+                                
+}
+
+/*** Submit/Reset Button Config ***/
+#submit{                        margin-left: 120px
+    
+}                 
+          
+                 
+          
+          
+
+/*** Nav/Footer CSS************************************************************/
+.MainContainer {
+    width: 1200px;
+    background-color: #0066CC;
+}
+.MenuContainer {
+    height: 70px;
+    bottom:0;
+    text-align: center;
+}
+ul#navigation {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 5px;  
+    text-align: center;
+    font-size: 22px;
+    
+
+    
+}
+
+/* removes UnderL, nav status always 1 color */
+ul#navigation a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffff99;
+}
+
+/* Spreads Nav Out Horizontally*/
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #663399;
+}

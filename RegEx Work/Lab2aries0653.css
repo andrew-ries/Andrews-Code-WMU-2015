@@ -1,0 +1,49 @@
+/* 
+
+Programmer: Andrew Ries
+Class ID: aries0653
+Lab 2 
+CIS 2800: Internet Programming 
+Fall 2015
+Due date: 10/22/15
+Date completed: 10/22/15
+*************************************
+Program Explanation
+
+External CSS for Lab2aries0653.php
+
+!!Includes file NROL.jpg!! 
+
+*/
+
+/* body */
+body {background-color: #99ADEB; 
+		color: #000000;
+		font-family: Georgia, "Times New Roman", serif; 
+		}
+			
+/* top heading h1 & h2*/
+    h1 {background-color: #000000; 
+	 color: #E8D37F;
+	 line-height: 200%;
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-shadow:1px 1px 2px #E8D37F; 
+}     
+         
+    h2 {background-color: #cccccc;
+                 color: #ff0000;
+             
+         }
+	 
+    #nrol {float:left;
+          margin: -5px 5px 5px 5px;
+          border: 1px solid #000000; }
+    /* Used in span class warnings */
+    .warning {
+        color: #ff0000;
+    }
+    
+    /* copyright */
+    div {color: #333333;
+         font-size: .75em;
+         font-style: italic; }
