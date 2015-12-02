@@ -1,0 +1,184 @@
+/*
+Programmer: Andrew Ries
+Class ID: aries0653
+Lab 4  
+CIS 2800: Internet Programming
+Fall 2015
+Due date: 12/01/15
+Date completed: 12/01/15
+*************************************
+
+
+*/
+
+
+/*** Classes ***************************************************************/
+.message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*** Header ***************************************************************/
+header {
+    text-align: center;
+   
+}
+
+
+
+
+/*** Body *****************************************************************/
+body {
+     color:#000000;
+     background-color: #ffcc66; 
+     
+    }
+    
+/* h2 Element */    
+    h1, h2 {
+       text-align: center; 
+    }
+    
+    h3 {
+        
+        text-align: center;
+        background-color: #ffffff;
+        clear: left;
+        float: left;
+    }
+ 
+         
+                
+                
+/*** Table *****************************************************************/               
+table, th, td {
+             
+              border-top: 3px solid black;
+              border-right: 3px solid black;
+              border-bottom: 3px solid black;
+              border-left: 3px solid black;
+          }
+          table {
+              margin-left: 50px;
+              margin-right: auto;
+              border-collapse: collapse;
+              width: 50%;
+              margin: auto;
+              clear: right;
+             
+          }
+          th {
+              height: 30px; 
+              text-align: center;
+              padding: 0px;
+              border-bottom: 3px solid black; /* header bottom border */ 
+              background-color: #663399;
+              color: #ffff99;
+          }
+          td {
+              background-color: #ffffff;
+          }
+          
+  
+
+/*** Form CSS *****************************************************************/ 
+form { 	                        background-color:#663399;
+                                color: #ffffff;
+				font-family: Courier, sans-serif;
+				width: 400px; 
+                                padding: 20px;
+                                size: 20px;
+                                margin-top: 20px;
+                                margin-bottom: 25px;
+                                margin: auto;
+                                font-weight: bold;
+                                
+}
+
+/*** "Border Box" ***/
+fieldset {                      width: 370px;
+                                border: 5px ridge #2B3E50;
+                                padding: 10px;
+                                margin-bottom: 2px;
+        
+}
+/*** Label Config ***/    
+/* display provides tb alignment */
+label {                         display: inline-block;
+                                width: 100px;
+                                text-align: left;
+    
+    
+}
+
+/*** Legend Config ***/
+/* fieldset title */
+legend {                        font-family: Georgia, "Times New Roman", serif;
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                color:#ffffff;
+                                
+}
+
+/*** Submit/Reset Button Config ***/
+#submit{                        margin-left: 120px
+    
+} 
+
+
+
+
+/*** Nav/Footer CSS************************************************************/
+
+hr, footer {
+    
+    
+    clear: left;
+    text-align: center;
+}
+hr {
+    margin-top: 50px; 
+}
+
+
+.MainContainer {
+    width: 1200px;
+    background-color: #0066CC;
+}
+.MenuContainer {
+    height: 70px;
+    bottom:0;
+    text-align: center;
+}
+ul#navigation {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 5px;  
+    text-align: center;
+    font-size: 22px;
+    
+
+    
+}
+
+/* removes UnderL, nav status always 1 color */
+ul#navigation a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffff99;
+}
+
+/* Spreads Nav Out Horizontally*/
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #663399;
+}
+          
+          
+
